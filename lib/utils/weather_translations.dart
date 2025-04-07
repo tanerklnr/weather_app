@@ -1,0 +1,60 @@
+// Hava durumu koşullarını İngilizce'den Türkçe'ye çeviren yardımcı sınıf
+class WeatherTranslations {
+  // Hava durumu koşullarının İngilizce-Türkçe eşleştirmelerini içeren map
+  static final Map<String, String> _translations = {
+    'Sunny': 'Güneşli',
+    'Clear': 'Açık',
+    'Partly cloudy': 'Parçalı Bulutlu',
+    'Cloudy': 'Bulutlu',
+    'Overcast': 'Kapalı',
+    'Mist': 'Sisli',
+    'Patchy rain possible': 'Yerel Yağmur',
+    'Patchy snow possible': 'Yerel Kar',
+    'Patchy sleet possible': 'Yerel Karla Karışık Yağmur',
+    'Patchy freezing drizzle possible': 'Yerel Dondurucu Çis Gök',
+    'Thundery outbreaks possible': 'Yerel Gök Gürültülü',
+    'Blowing snow': 'Tipi',
+    'Blizzard': 'Kar Fırtınası',
+    'Fog': 'Sis',
+    'Freezing fog': 'Dondurucu Sis',
+    'Patchy light drizzle': 'Yerel Hafif Çis',
+    'Light drizzle': 'Hafif Çis',
+    'Freezing drizzle': 'Dondurucu Çis',
+    'Heavy freezing drizzle': 'Şiddetli Dondurucu Çis',
+    'Patchy light rain': 'Yerel Hafif Yağmur',
+    'Light rain': 'Hafif Yağmur',
+    'Moderate rain at times': 'Yerel Orta Şiddetli Yağmur',
+    'Moderate rain': 'Orta Şiddetli Yağmur',
+    'Heavy rain at times': 'Yerel Şiddetli Yağmur',
+    'Heavy rain': 'Şiddetli Yağmur',
+    'Light freezing rain': 'Hafif Dondurucu Yağmur',
+    'Moderate or heavy freezing rain': 'Orta veya Şiddetli Dondurucu Yağmur',
+    'Light sleet': 'Hafif Karla Karışık Yağmur',
+    'Moderate or heavy sleet': 'Orta veya Şiddetli Karla Karışık Yağmur',
+    'Patchy light snow': 'Yerel Hafif Kar',
+    'Light snow': 'Hafif Kar',
+    'Patchy moderate snow': 'Yerel Orta Şiddetli Kar',
+    'Moderate snow': 'Orta Şiddetli Kar',
+    'Patchy heavy snow': 'Yerel Şiddetli Kar',
+    'Heavy snow': 'Şiddetli Kar',
+    'Ice pellets': 'Dolu',
+    'Light rain shower': 'Hafif Sağanak',
+    'Moderate or heavy rain shower': 'Orta veya Şiddetli Sağanak',
+    'Torrential rain shower': 'Şiddetli Sağanak',
+    'Light sleet showers': 'Hafif Karla Karışık Sağanak',
+    'Moderate or heavy sleet showers': 'Orta veya Şiddetli Karla Karışık Sağanak',
+    'Light snow showers': 'Hafif Kar Sağanağı',
+    'Moderate or heavy snow showers': 'Orta veya Şiddetli Kar Sağanağı',
+    'Light showers of ice pellets': 'Hafif Dolu Sağanağı',
+    'Moderate or heavy showers of ice pellets': 'Orta veya Şiddetli Dolu Sağanağı',
+    'Patchy light rain with thunder': 'Yerel Hafif Gök Gürültülü Yağmur',
+    'Moderate or heavy rain with thunder': 'Orta veya Şiddetli Gök Gürültülü Yağmur',
+    'Patchy light snow with thunder': 'Yerel Hafif Gök Gürültülü Kar',
+    'Moderate or heavy snow with thunder': 'Orta veya Şiddetli Gök Gürültülü Kar',
+  };
+
+  // Verilen İngilizce hava durumu koşulunu Türkçe'ye çeviren metod
+  static String translateCondition(String condition) {
+    return _translations[condition] ?? condition;
+  }
+} 
