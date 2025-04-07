@@ -11,39 +11,9 @@ A beautiful and minimal weather application built with Flutter that shows curren
 - 📊 Essential weather details (temperature, humidity, wind speed)
 - 🎨 Modern and minimal UI design
 
-## Setup
 
-1. Clone the repository
-2. Install Flutter dependencies:
-   ```bash
-   flutter pub get
-   ```
-3. Create a `.env` file in the root directory and add your WeatherAPI key:
-   ```
-   WEATHER_API_KEY=your_api_key_here
-   ```
-4. Run the app:
-   ```bash
-   flutter run
-   ```
-
-## Dependencies
-
-- flutter
-- http
-- geolocator
-- lottie
-- google_fonts
-- flutter_dotenv
-- intl
-
-## Getting a WeatherAPI Key
-
-1. Go to [WeatherAPI.com](https://www.weatherapi.com/)
-2. Sign up for a free account
-3. Get your API key from the dashboard
-4. Add it to the `.env` file
-
-## Note
-
-Make sure to enable location permissions on your device to get weather information for your current location. 
+![Ekran görüntüsü 2025-04-07 104307](https://github.com/user-attachments/assets/2fa2de73-5d13-4666-bd57-fda7c896cd3f)
+![Ekran görüntüsü 2025-04-07 104207](https://github.com/user-attachments/assets/503a65ee-fa32-407d-8c55-25494bd56ce6)
+![Ekran görüntüsü 2025-04-07 104122](https://github.com/user-attachments/assets/c74fce80-9576-4d4e-8f87-deb63c3485b2)
+![Ekran görüntüsü 2025-04-07 104240](https://github.com/user-attachments/assets/46f9534e-3868-41d9-ad14-cd84b21065a5)
+![Ekran görüntüsü 2025-04-07 104558](https://github.com/user-attachments/assets/bb56c7e3-634a-405d-8498-7ca457f72579)
